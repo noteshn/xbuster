@@ -1,1 +1,26 @@
-// Empty
+{
+ “name”: “Xbuster”,
+ “description”: “An extension to prevent pornographic contents and online unusual distractions.”,
+ “version”: “0.1”,
+ “manifest_version”: 3,
+ “background”: {
+     “service_worker”: “background.js”
+ },
+ “permissions”: [“storage”, “activeTab”, “scripting”],
+ “action”: {
+ “default_popup”: “popup/popup.html”
+ },
+ “content_scripts”: [
+     {
+       “matches”: [“http://localhost:3000/”],
+       “js”: [“contentScript.js”]
+     }
+ ],
+ “icons”: {
+     “16”: “/images/logo16.png”,
+     “32”: “/images/logo32.png”,
+     “48”: “/images/logo48.png”,
+     “128”: “/images/logo64.png”
+ },
+ “options_page”: “popup/options.html”
+}
