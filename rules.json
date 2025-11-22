@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "exampleblockedsite.com",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "socialmediasite.com",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/blocked/blocked.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "anotherdistractionsite.com",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
