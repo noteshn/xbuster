@@ -1,5 +1,7 @@
 # Xbuster – Chrome Extension
 
+⚠️ **Warning: This extension is still under development and not ready for production use.**
+
 Xbuster is a lightweight Chrome extension designed to help users stay focused online by reducing access to distracting websites and creating a more productive browsing environment.
 
 This project uses **Manifest V3**, **Declarative Net Request (DNR)** rules, and a simple popup interface.
@@ -93,4 +95,3 @@ Reload the extension afterward.
 * Xbuster runs entirely locally on your device.
 * No browsing data is sent to external servers.
 * Built for a clean and focused browsing experience.
-
