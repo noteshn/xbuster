@@ -61,7 +61,7 @@ Settings are saved using `chrome.storage.sync`.
 1. Clone or download the repository:
 
    ```
-   git clone https://github.com/yourusername/xbuster.git
+   git clone https://github.com/noteshn/xbuster.git
    ```
 2. Open Chrome and go to:
 
